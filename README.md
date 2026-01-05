@@ -1,4 +1,6 @@
 ﻿# Ecommerce_Backend
+ Live: https://ecommerce-backend-yjy2.onrender.com/
+ 
 A RESTful E-commerce Backend built using Node.js, Express, MongoDB, implementing authentication, authorization, products, cart, orders, and payments.
 This project is designed following real-world backend practices and showcases clean architecture, role-based access, and secure payment flow.
 #Tech Stack
@@ -47,3 +49,4 @@ ecommerce-backend/
 ├── app.js
 ├── package.json
 └── README.md
+
