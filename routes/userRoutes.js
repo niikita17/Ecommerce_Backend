@@ -9,8 +9,8 @@ import {
 } from "../controller/userController.js";
 
 const router = express.Router();
-app.use(auth);
+
 router.post("/add",  create);
-router.put("/update",   update);
+router.put("/update", auth, update);
 
 export default router;
